@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harshil Prajapati — Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Font Awesome (icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <meta
+      name="description"
+      content="Personal portfolio — About, Projects, Certificates, Contact, GitHub links."
+    />
+  </head>
+  <body>
+    <!-- HERO -->
+    <section id="home" class="hero container">
+      <div class="hero-left">
+        <h1>Hi, I'm <span>Harshil Prajapati</span></h1>
+        <p><span id="about"></span></p>
+
+        <div class="hero-actions">
+          <a class="btn" href="files/resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="#projects">See Projects</a>
+        </div>
+        <div class="socials" aria-hidden="false">
+          <a href="https://github.com/harshil962" target="_blank" rel="noopener"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/harshil-prajapati-3163a4283/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="profile-photo" aria-hidden="true">
+            <!-- Replace with your image or svg -->
+            <img
+              src="images/profile.jpeg"
+              alt="Harshil Prajapati"
+              width="160"
+              height="160"
+              style="border-radius: 16px; object-fit: cover"
+            />
+          </div>
+          <div class="profile-info">
+            <h3>PYTHON Developer</h3>
+
+            <span id="element"></span>
+            <div class="quick-links">
+              <a
+                class="small"
+                href="https://github.com/harshil962"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a class="small" href="mailto:hp5896958@gmail.com"
+                ><i class="fas fa-envelope"></i> Email</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm Harshil Prajapati, a passionate developer who focuses on
+            building fast, accessible, and responsive web experiences. I enjoy
+            turning problems into clean, usable, and delightful products. I'm
+            comfortable with <strong>Python</strong> and currently learning
+            <strong>Data Science</strong> — from backend development to
+            deployment.
+          </p>
+
+          <p>I work with <span id="skills"></span></p>
+
+          <ul class="about-list">
+            <li><strong>Location:</strong> Ahmedabad-Gujarat-India</li>
+            <li>
+              <strong>Available for:</strong> Freelance / Full-time / Part-Time
+              / Remote
+            </li>
+            <li><strong>Interests:</strong> Accessibility, Performance, UX</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <div class="skill-chips">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Data-Science</span>
+            <span>AI</span>
+            <span>Django</span>
+            <span>Responsive Design</span>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="card">
+          <div class="card-head">
+            <h3>🎮 Tic Tac Toe Game</h3>
+            <p class="sub">
+              A simple and fun Tic Tac Toe game built using <strong> HTML, CSS, and
+              JavaScript</strong>. Playable directly in the browser with a clean and
+              responsive design.
+            </p>
+          </div>
+          <p class="card-body"></p>
+          <div class="card-footer">
+            <a
+              class="small ghost"
+              href="https://github.com/harshil962/tic-tac-toe"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github"></i> Code</a
+            >
+            <a class="small" href="https://harshil962.github.io/tic-tac-toe/" target="_blank" rel="noopener"
+              ><i class="fas fa-external-link-alt"></i> Live</a
+            >
+          </div>
+        </article>
+
+
+         <article class="card">
+          <div class="card-head">
+            <h3>📝 TextUtil – A Simple Django Text Util App</h3>
+            <p class="sub">
+                  TextUtil is a web-based tool built using Django that helps you
+              manipulate and analyze text in various way. <br>
+                <strong>💻 Built With-Python 3- Django Framework-Bootstrap5</strong>
+            </p>
+          </div>
+          <p class="card-body"></p>
+          <div class="card-footer">
+            <a
+              class="small ghost"
+              href="https://github.com/harshil962/TextUtilx"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github"></i> Code</a
+            >
+            <a class="small" href="https://textutilx.onrender.com/" target="_blank" rel="noopener"
+              ><i class="fas fa-external-link-alt"></i> Live</a
+            >
+          </div>
+        </article>
+        <!-- Project 3 -->
+        <article class="card">
+          <div class="card-head">
+            <h3>💊 MediCart – Online Medical Store</h3>
+            <p class="sub">
+              MediCart is a Django & Bootstrap 5 web app that lets users browse
+              medicines, place orders, and manage purchases online, providing a
+              smooth and responsive online pharmacy experience. <br>
+            <strong>💻 Built With-Python 3- Django Framework-Bootstrap5</strong>
+
+            </p>
+          </div>
+          <div class="card-footer">
+            <a class="small ghost" href="https://github.com/harshil962/final-year-project" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> Code</a
+            >
+            <a class="small" href="#" target="_blank" rel="noopener"
+              ><i class="fas fa-external-link-alt"></i> Live</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+   <!-- CERTIFICATES -->
+<section id="certificates" class="section container">
+  <h2 class="section-title">Certificates</h2>
+  <div class="cert-grid">
+    
+    <!-- Certificate 1 -->
+    <div class="cert-card">
+      <h4>Python & Django Web Development</h4>
+      <p class="small">techmicra — Jun 2025</p>
+      <a class="small ghost" href="images/python_django.jpeg" target="_blank" rel="noopener">View</a>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="cert-card">
+      <h4>GenAI Powered Data Analytics Job Simulation</h4>
+      <p class="small">Forage — Oct 2025</p>
+      <a class="small ghost" href="files/GENAITATA.pdf" target="_blank" rel="noopener">View</a>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="cert-card">
+      <h4>Technology Consulting Virtual Experience</h4>
+      <p class="small">Accenture Australia (Forage) — Oct 2025</p>
+      <a class="small ghost" href="files/accenture.pdf" target="_blank" rel="noopener">View</a>
+    </div>
+
+    <!-- Certificate 4 -->
+<div class="cert-card">
+  <h4>Getting Started with Microsoft Excel</h4>
+  <p class="small">Coursera Project Network — Oct 2025</p>
+  <a class="small ghost" href="files/micro.pdf" target="_blank" rel="noopener">View</a>
+</div>
+
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="https://formspree.io/f/manlyvjw"
+          method="POST"
+        >
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </div>
+          <input type="text" name="subject" placeholder="Subject (optional)" />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your message"
+            required
+          ></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Send Message</button>
+            <a
+              class="btn ghost"
+              href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHqprbhFMwCLRrwsrPxdFwvBhVXmPVWSpTDnbzwHgNPZbKmtxcGmpWSNTBCgrwFdRvq"
+              >Or email me</a
+            >
+          </div>
+        </form>
+
+        <div class="contact-info">
+          <h3>Get in touch</h3>
+          <h3>Get in touch</h3>
+          <p>
+            Prefer scheduling a call? Send an email or hit the Hire Me button in
+            the top nav.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <strong>Email:</strong>
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHqprbhFMwCLRrwsrPxdFwvBhVXmPVWSpTDnbzwHgNPZbKmtxcGmpWSNTBCgrwFdRvq"
+                >hp5896958@gmail.com</a
+              >
+            </li>
+            <li><strong>Location:</strong> India</li>
+            <li>
+              <strong>Availability:</strong> Open to freelance & full-time
+            </li>
+          </ul>
+          <div class="contact-cta">
+            <a
+              class="btn"
+              href="https://www.linkedin.com/in/harshil-prajapati-3163a4283/"
+              >Hire Me</a
+            >
+            <a
+              class="btn ghost"
+              href="https://github.com/harshil962"
+              target="_blank"
+              rel="noopener"
+              >My GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer container">
+      <div class="footer-left">
+        <p>
+          &copy; <span id="year"></span> Harshil Prajapati. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#" class="small ghost">Privacy</a>
+        <a href="#" class="small ghost">Terms</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
