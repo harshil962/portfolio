@@ -4,40 +4,42 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Harshil Prajapati — Portfolio</title>
-
+    
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@400;600&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@400;600&display=swap"
+    rel="stylesheet"
     />
-
+    
     <!-- Typed.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
+    
     <!-- Font Awesome (icons) -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-..."
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css" />
-
+    
     <meta
-      name="description"
-      content="Personal portfolio — About, Projects, Certificates, Contact, GitHub links."
+    name="description"
+    content="Personal portfolio — About, Projects, Certificates, Contact, GitHub links."
     />
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- HERO -->
     <section id="home" class="hero container">
       <div class="hero-left">
         <h1>Hi, I'm <span>Harshil Prajapati</span></h1>
-        <p><span id="about"></span></p>
-
+        <i><span id="element"></span></i> <br>
+        <!-- <span id="about"></span> -->
         <div class="hero-actions">
           <a class="btn" href="files/resume.pdf" download>Download Resume</a>
           <a class="btn ghost" href="#projects">See Projects</a>
@@ -54,42 +56,12 @@
           ></a>
         </div>
       </div>
-      <div class="hero-right">
-        <div class="profile-card">
-          <div class="profile-photo" aria-hidden="true">
-            <!-- Replace with your image or svg -->
-            <img
-              src="images/profile.jpeg"
-              alt="Harshil Prajapati"
-              width="160"
-              height="160"
-              style="border-radius: 16px; object-fit: cover"
-            />
-          </div>
-          <div class="profile-info">
-            <h3>PYTHON Developer</h3>
-
-            <span id="element"></span>
-            <div class="quick-links">
-              <a
-                class="small"
-                href="https://github.com/harshil962"
-                target="_blank"
-                rel="noopener"
-                ><i class="fab fa-github"></i> GitHub</a
-              >
-              <a class="small" href="mailto:hp5896958@gmail.com"
-                ><i class="fas fa-envelope"></i> Email</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="section container">
-      <h2 class="section-title">About</h2>
+    <section id="about" class="section container " data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+      <h2 class="section-title" >About</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
@@ -138,9 +110,9 @@
           <div class="card-head">
             <h3>🎮 Tic Tac Toe Game</h3>
             <p class="sub">
-              A simple and fun Tic Tac Toe game built using <strong> HTML, CSS, and
-              JavaScript</strong>. Playable directly in the browser with a clean and
-              responsive design.
+              A simple and fun Tic Tac Toe game built using
+              <strong> HTML, CSS, and JavaScript</strong>. Playable directly in
+              the browser with a clean and responsive design.
             </p>
           </div>
           <p class="card-body"></p>
@@ -152,20 +124,25 @@
               rel="noopener"
               ><i class="fab fa-github"></i> Code</a
             >
-            <a class="small" href="https://harshil962.github.io/tic-tac-toe/" target="_blank" rel="noopener"
+            <a
+              class="small"
+              href="https://harshil962.github.io/tic-tac-toe/"
+              target="_blank"
+              rel="noopener"
               ><i class="fas fa-external-link-alt"></i> Live</a
             >
           </div>
         </article>
 
-
-         <article class="card">
+        <article class="card">
           <div class="card-head">
             <h3>📝 TextUtil – A Simple Django Text Util App</h3>
             <p class="sub">
-                  TextUtil is a web-based tool built using Django that helps you
-              manipulate and analyze text in various way. <br>
-                <strong>💻 Built With-Python 3- Django Framework-Bootstrap5</strong>
+              TextUtil is a web-based tool built using Django that helps you
+              manipulate and analyze text in various way. <br />
+              <strong
+                >💻 Built With-Python 3- Django Framework-Bootstrap5</strong
+              >
             </p>
           </div>
           <p class="card-body"></p>
@@ -177,7 +154,11 @@
               rel="noopener"
               ><i class="fab fa-github"></i> Code</a
             >
-            <a class="small" href="https://textutilx.onrender.com/" target="_blank" rel="noopener"
+            <a
+              class="small"
+              href="https://textutilx.onrender.com/"
+              target="_blank"
+              rel="noopener"
               ><i class="fas fa-external-link-alt"></i> Live</a
             >
           </div>
@@ -189,14 +170,20 @@
             <p class="sub">
               MediCart is a Django & Bootstrap 5 web app that lets users browse
               medicines, place orders, and manage purchases online, providing a
-              smooth and responsive online pharmacy experience. <br>
-            <strong>💻 Built With-Python 3- Django Framework-Bootstrap5</strong>
-
+              smooth and responsive online pharmacy experience. <br />
+              <strong
+                >💻 Built With-Python 3- Django Framework-Bootstrap5</strong
+              >
             </p>
           </div>
           <div class="card-footer">
-            <a class="small ghost" href="https://github.com/harshil962/final-year-project" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> Code</a
+            <a
+              class="small ghost"
+              href="https://github.com/harshil962/final-year-project"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github"></i> Code</a
             >
             <a class="small" href="#" target="_blank" rel="noopener"
               ><i class="fas fa-external-link-alt"></i> Live</a
@@ -206,42 +193,63 @@
       </div>
     </section>
 
-   <!-- CERTIFICATES -->
-<section id="certificates" class="section container">
-  <h2 class="section-title">Certificates</h2>
-  <div class="cert-grid">
-    
-    <!-- Certificate 1 -->
-    <div class="cert-card">
-      <h4>Python & Django Web Development</h4>
-      <p class="small">techmicra — Jun 2025</p>
-      <a class="small ghost" href="images/python_django.jpeg" target="_blank" rel="noopener">View</a>
-    </div>
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section container">
+      <h2 class="section-title">Certificates</h2>
+      <div class="cert-grid">
+        <!-- Certificate 1 -->
+        <div class="cert-card">
+          <h4>Python & Django Web Development</h4>
+          <p class="small">techmicra — Jun 2025</p>
+          <a
+            class="small ghost"
+            href="images/python_django.jpeg"
+            target="_blank"
+            rel="noopener"
+            >View</a
+          >
+        </div>
 
-    <!-- Certificate 2 -->
-    <div class="cert-card">
-      <h4>GenAI Powered Data Analytics Job Simulation</h4>
-      <p class="small">Forage — Oct 2025</p>
-      <a class="small ghost" href="files/GENAITATA.pdf" target="_blank" rel="noopener">View</a>
-    </div>
+        <!-- Certificate 2 -->
+        <div class="cert-card">
+          <h4>GenAI Powered Data Analytics Job Simulation</h4>
+          <p class="small">Forage — Oct 2025</p>
+          <a
+            class="small ghost"
+            href="files/GENAITATA.pdf"
+            target="_blank"
+            rel="noopener"
+            >View</a
+          >
+        </div>
 
-    <!-- Certificate 3 -->
-    <div class="cert-card">
-      <h4>Technology Consulting Virtual Experience</h4>
-      <p class="small">Accenture Australia (Forage) — Oct 2025</p>
-      <a class="small ghost" href="files/accenture.pdf" target="_blank" rel="noopener">View</a>
-    </div>
+        <!-- Certificate 3 -->
+        <div class="cert-card">
+          <h4>Technology Consulting Virtual Experience</h4>
+          <p class="small">Accenture Australia (Forage) — Oct 2025</p>
+          <a
+            class="small ghost"
+            href="files/accenture.pdf"
+            target="_blank"
+            rel="noopener"
+            >View</a
+          >
+        </div>
 
-    <!-- Certificate 4 -->
-<div class="cert-card">
-  <h4>Getting Started with Microsoft Excel</h4>
-  <p class="small">Coursera Project Network — Oct 2025</p>
-  <a class="small ghost" href="files/micro.pdf" target="_blank" rel="noopener">View</a>
-</div>
-
-  </div>
-</section>
-
+        <!-- Certificate 4 -->
+        <div class="cert-card">
+          <h4>Getting Started with Microsoft Excel</h4>
+          <p class="small">Coursera Project Network — Oct 2025</p>
+          <a
+            class="small ghost"
+            href="files/micro.pdf"
+            target="_blank"
+            rel="noopener"
+            >View</a
+          >
+        </div>
+      </div>
+    </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section container">
@@ -282,7 +290,6 @@
 
         <div class="contact-info">
           <h3>Get in touch</h3>
-          <h3>Get in touch</h3>
           <p>
             Prefer scheduling a call? Send an email or hit the Hire Me button in
             the top nav.
@@ -292,8 +299,7 @@
               <strong>Email:</strong>
               <a
                 href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHqprbhFMwCLRrwsrPxdFwvBhVXmPVWSpTDnbzwHgNPZbKmtxcGmpWSNTBCgrwFdRvq"
-                >hp5896958@gmail.com</a
-              >
+                >hp5896958@gmail.com</a>
             </li>
             <li><strong>Location:</strong> India</li>
             <li>
@@ -325,12 +331,17 @@
           &copy; <span id="year"></span> Harshil Prajapati. All rights reserved.
         </p>
       </div>
-      <div class="footer-right">
-        <a href="#" class="small ghost">Privacy</a>
-        <a href="#" class="small ghost">Terms</a>
-      </div>
     </footer>
-
     <script src="js/script.js"></script>
+    <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000, // Animation duration in ms
+    once: true, // Animation happens only once
+  });
+</script>
+
   </body>
 </html>

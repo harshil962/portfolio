@@ -2,18 +2,14 @@
 
 // Typed.js
 var typed = new Typed('#element', {
-  strings: ['Python','Django','HTML','CSS','JS','BOOTSTRAP-AI'],
-  typeSpeed: 50,
-  backSpeed: 30,
+  strings: ['Python-Developer...'],
+  typeSpeed: 100,
+  backSpeed: 100,
   loop: true
 });
 
-var typed = new Typed('#about', {
-  strings: ['Python developer building clean, accessible, responsive web experiences. I love making things that are simple and delightful.'],
-  typeSpeed: 50,
-  backSpeed: 30,
-  loop: true
-});
+
+
 var typed = new Typed('#skills', {
   strings: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap-AI', 'Data Science (Learning)'],
   typeSpeed: 50,
